@@ -99,19 +99,23 @@ img { max-width: 100%; }
   z-index: 999999;
 }
 #status {
-  width: 200px;
-  height: 200px;
+  width: 600px;
+  height: 600px;
+  margin-left: 27%;
+  margin-right: auto
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(../images/loader.gif);
+  background-image: url("http://ros-elastopaint.com/App_ClientFile/9f172ec5-674c-41b2-a397-1792cc7afc62/Design/Template/1004/Assets/loading.gif");
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
-  margin: -40px 0 0 -100px;
+  /*margin: -40px 0 0 -100px;*/
+
 }
 #status img {
   text-align: center;
+  margin-left: -13.5%;
   margin-top: -80px;
 }
 
